@@ -1,0 +1,40 @@
+.main-wrapper{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0%;
+}
+.action-wrapper{
+    padding: 30px;
+}
+.action-wrapper input{
+    font-size: 1rem;
+    padding: 10px;
+    border: blue 1px solid;
+}
+.action-wrapper button, .item-actions button{
+    padding: 12px;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    border: solid 1px rgb(112, 153, 153);
+}
+.action-wrapper button:hover, .item-actions button:hover{
+    background-color: white;
+    color: black;
+    border: blue 1px solid;
+    cursor: pointer;
+}
+.list-item{  
+    width: 100%;
+    margin: 20px 0%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-name{
+    padding: 10px;
+    font-size: 1.2rem;
+}
